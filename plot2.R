@@ -1,3 +1,7 @@
+# This file expects that you downloaded the data from
+# https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+# and extracted it and set the working directory to the folder containing the "household_power_consumption.txt"-file.
+
 Sys.setlocale("LC_TIME", "English")
 
 data <- read.table("household_power_consumption.txt", header=TRUE, sep=";",na.strings="?",stringsAsFactors=FALSE)
